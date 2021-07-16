@@ -125,3 +125,95 @@ ul li a {
   margin-top: 20vh;
   color: #838080;
 }
+
+/* gallary section */
+
+.galary {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  /* grid-template-areas:
+    "item8 item8 item1 item1 item1"
+    "item8 item8 item1 item1"; */
+  min: height 100vh;
+}
+
+.galary .item1 {
+  background: url(.//img/1gnYuBa3-500x500.jpg) no-repeat center;
+  /* grid-area: item1; */
+  grid-column: 1/3;
+  grid-row: 1/1;
+}
+
+.galary .item2 {
+  background: url(.//img/11740750174_e4ee04b4e6_b-500x500.jpg) no-repeat center;
+  /* grid-area: item1; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .item3 {
+  background: url(.//img/be-500x500.jpg) no-repeat center;
+  /* grid-area: item2; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .item4 {
+  background: url(.//img/by-the-sea1-500x500.jpg) no-repeat center;
+  /* grid-area: item3; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .item5 {
+  background: url(.//img/wave1.jpg) no-repeat center;
+  /* grid-area: item4; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .item6 {
+  background: url(.//img/girl-500x500.jpg) no-repeat center;
+  /* grid-area: item5; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .item7 {
+  background: url(.//img/keb1nsr1.jpg) no-repeat center;
+  /* grid-area: item6; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+.galary .item7 {
+  background: url(.//img/people-500x500.jpg) no-repeat center;
+  /* grid-area: item7; */
+  /* grid-column: 6/9; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .item8 {
+  background: url(.//img/Stocksy_txp892408bbAAl000_Medium_478106-1-1000x1000.jpg)
+    no-repeat center;
+  grid-area: item8;
+  /* grid-column: 1/6; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .item9 {
+  background: url(.//img/tumblr_mxrv8vRMbA1st5lhmo1_12802-1000x853.jpg)
+    no-repeat center;
+  /* grid-area: item9; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+
+.galary .itemX {
+  background: url(.//img/waves-500x500.jpg) no-repeat center;
+  /* grid-area: itemX; */
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
