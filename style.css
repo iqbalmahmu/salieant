@@ -5,11 +5,68 @@
 }
 
 body {
-  background: url(../img/wave.jpg) no-repeat top center;
-  background-size: cover;
+  /* background: url(../img/wave.jpg) no-repeat top center; */
+  /* background-size: cover; */
 }
 
 .header {
   display: flex;
   /* flex-direction: row; */
+  justify-content: space-between;
+  background: url(../img/wave.jpg) no-repeat top center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header-left {
+  margin: 5px;
+  /* color: #fff; */
+}
+.header-right {
+  margin-right: 950px;
+}
+
+ul {
+  list-style-type: none;
+  /* margin-right: 40px; */
+}
+
+ul li {
+  display: inline-block;
+  color: #fff;
+  margin: 5px;
+}
+
+ul li a {
+  font-size: 5px;
+}
+
+.togle-icon {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.fa-search {
+  font-size: 2.5rem;
+  margin-right: 6.5rem;
+  color: white;
+}
+
+.fa-bars {
+  font-size: 2.5rem;
+  margin-right: 2.5rem;
+  color: white;
+}
+
+.header-banner {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 250px;
+  left: 650px;
 }
